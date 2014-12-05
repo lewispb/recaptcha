@@ -5,7 +5,7 @@ require 'recaptcha/verify'
 module Recaptcha
   RECAPTCHA_API_SERVER_URL        = '//www.google.com/recaptcha/api'
   RECAPTCHA_API_SECURE_SERVER_URL = 'https://www.google.com/recaptcha/api'
-  RECAPTCHA_VERIFY_URL            = 'http://www.google.com/recaptcha/api/verify'
+  RECAPTCHA_VERIFY_URL            = 'https://www.google.com/recaptcha/api/siteverify'
   USE_SSL_BY_DEFAULT              = false
 
   HANDLE_TIMEOUTS_GRACEFULLY      = true
